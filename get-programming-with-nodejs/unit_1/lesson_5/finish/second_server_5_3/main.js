@@ -5,7 +5,8 @@ const routeResponseMap = {
   "/contact": "<h1>Contact Us</h1>",
   "/about": "<h1>Learn More About Us.</h1>",
   "/hello": "<h1>Say hello by emailing us here</h1>",
-  "/error": "<h1>Sorry the page you are looking for is not here.</h1>"
+  "/error": "<h1>Sorry the page you are looking for is not here.</h1>",
+  "/code" : "<h1>this is a test page made with spit, prayers and elbow grease</h1>\n<p>this is a paragraph to test if this works as I intend it to work</p>\n<p>merck toch hoe sterck</p>"
 };
 
 const port = 3000,

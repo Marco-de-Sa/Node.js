@@ -6,9 +6,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Jon Wexler",
+  "author": "Marco de Sá",
   "license": "ISC",
   "dependencies": {
-    "http-status-codes": "^1.3.0"
-  }
+    "http-status-code": "^2.1.0",
+    "http-status-codes": "^1.4.0"
+  },
+  "devDependencies": {}
 }
