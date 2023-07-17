@@ -14,7 +14,8 @@ var courses = [
     cost: 10
   },
   {
-    title: "Algorithmic Apple"
+    title: "Algorithmic Apple",
+    cost: 15
   }
 ];
 
