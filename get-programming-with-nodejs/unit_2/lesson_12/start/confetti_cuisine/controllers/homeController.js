@@ -12,6 +12,9 @@ var courses = [
   {
     title: "Object Oriented Orange Juice",
     cost: 10
+  },
+  {
+    title: "Algorithmic Apple"
   }
 ];
 
