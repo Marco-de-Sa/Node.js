@@ -20,7 +20,7 @@ app.use(express.static("public"));
 app.get("/", (req, res) => {
   res.render("index");
 });
-//test
+
 app.get("/courses", homeController.showCourses);
 app.get("/contact", homeController.showSignUp);
 app.post("/contact", homeController.postedSignUpForm);
