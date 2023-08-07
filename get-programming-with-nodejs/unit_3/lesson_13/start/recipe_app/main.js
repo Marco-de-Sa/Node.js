@@ -13,9 +13,7 @@ const express = require("express"),
 MongoDB.connect(dbURL,(error, client) => {
     if (error) throw error;
     let db = client.db(dbName);
-    db.collection("contacts")
-      .find()
-      .toArray((error, data) => {
+    db.collection("contacts").find().toArray((error, data) => {
         if (error) throw error;
         console.log(data);
       });
